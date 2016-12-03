@@ -1,0 +1,80 @@
+.navbar-mozilla {
+    background-color: red;
+    color: white;
+    vertical-align: bottom;
+    padding: 2px;
+    margin-bottom: 0px;
+}
+#mozilla_ul a,p {
+    color: white;
+    text-transform: uppercase;
+}
+.navbar-header {
+    display: inline-block;
+    float: right;
+    color: white;
+}
+#mozilla_navlinks {
+    float: right;
+}
+.pipe-right {
+    border-right: 1px solid white;
+    padding: 0px;
+}
+.jumbotron {
+    font-family: 'Signika', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    padding: 0;
+}
+.carousel-inner img {
+    width: 100%;
+    min-height: 495px !important;
+}
+@media (max-width: 980px) {
+    #mycarousel {
+        width: 980px;
+        height: 495px;
+    }
+    .carousel-inner img {
+        width: 980;
+        height: 100% !important;
+    }
+}
+.carousel-overlay {
+    position: relative;
+    height: 0px;
+    overflow-y: visible;
+    z-index: 1;
+    width: 70%;
+
+}
+
+.left-k {
+    color: red;
+    font-weight: bolder;
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
+
+}
+.right-k {
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
+
+}
+p {
+    color: gray;
+    text-transform: capitalize;
+    line-height: 1.6em;
+    font-size: 1.2em;
+}
+* {
+    font-family: 'Signika', sans-serif;
+}
